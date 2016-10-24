@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ZXMainViewController.h
 //  FrameDemo
 //
 //  Created by 展祥叶 on 16/10/24.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ZXMainViewController : UIViewController
 
 @end
-

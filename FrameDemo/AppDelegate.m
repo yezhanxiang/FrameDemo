@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "ZXMainViewController.h"
+#import "ZXLaunchController.h"
 
 @interface AppDelegate ()
 
@@ -16,8 +18,29 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    [self addMainWindow];
+    
+    [self addADLaunchController];
+    
     return YES;
+}
+
+- (void)addMainWindow
+{
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = [[ZXMainViewController alloc] init];
+    [self.window makeKeyAndVisible];
+}
+
+- (void)addADLaunchController
+{
+    UIViewController *rootViewController = self.window.rootViewController;
+    ZXLaunchController *launchController = [[ZXLaunchController alloc] init];
+    [rootViewController addChildViewController:launchController];
+    launchController.view.frame = rootViewController.view.frame;
+    [rootViewController.view addSubview:launchController.view];
 }
 
 

@@ -1,29 +1,26 @@
 //
-//  ViewController.m
+//  ZXMainViewController.m
 //  FrameDemo
 //
 //  Created by 展祥叶 on 16/10/24.
 //  Copyright © 2016年 ye zhanxiang. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "ZXMainViewController.h"
 
-@interface ViewController ()
+@interface ZXMainViewController ()
 
 @end
 
-@implementation ViewController
+@implementation ZXMainViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor greenColor];
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
-
 
 @end
