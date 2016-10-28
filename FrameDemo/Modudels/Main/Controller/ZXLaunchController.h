@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ZXLaunchViewModel.h"
 
-@interface ZXLaunchController : UIViewController
+@interface ZXLaunchController : UIViewController<ZXRequestDelegate>
 
 @end

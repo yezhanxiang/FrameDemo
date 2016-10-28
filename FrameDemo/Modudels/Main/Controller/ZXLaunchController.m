@@ -15,6 +15,7 @@
 
 @property (nonatomic, weak) ZXLaunchView *adLaunchView;
 @property (nonatomic, strong) dispatch_source_t timer;
+@property (nonatomic, strong) ZXLaunchViewModel *viewModel;
 
 @end
 
@@ -22,6 +23,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    _viewModel = [ZXLaunchViewModel new];
+    _viewModel.delegate = self;
     
     [self addADLaunchView];
     
@@ -48,8 +52,8 @@
 - (void)loadData
 {
     //http://i.play.163.com/news/initLogo/ios_iphone6
-    NSString *urlStr = @"http://img3.cache.netease.com/game/app/qidong/history/20161024/20161024_750x1334.jpg";
-    [self showADImageWithURL:[NSURL URLWithString:urlStr]];
+    //    NSString *urlStr = @"http://img3.cache.netease.com/game/app/qidong/history/20161024/20161024_750x1334.jpg";
+    [_viewModel loadLaunchImageDate];
 }
 
 #pragma mark - private
@@ -58,8 +62,7 @@
 {
 
     __weak typeof(self) weakSelf = self;
-    NSString *uslStr = @"http://img3.cache.netease.com/game/app/qidong/history/20161024/20161024_750x1334.jpg";
-    [_adLaunchView.adImageView yy_setImageWithURL:[NSURL URLWithString:uslStr] placeholder:nil options:YYWebImageOptionSetImageWithFadeAnimation completion:^(UIImage * _Nullable image, NSURL * _Nonnull url, YYWebImageFromType from, YYWebImageStage stage, NSError * _Nullable error) {
+    [_adLaunchView.adImageView yy_setImageWithURL:url placeholder:nil options:YYWebImageOptionSetImageWithFadeAnimation completion:^(UIImage * _Nullable image, NSURL * _Nonnull url, YYWebImageFromType from, YYWebImageStage stage, NSError * _Nullable error) {
         // 启动倒计时
         [weakSelf scheduledGCDTimer];
     }];
@@ -120,6 +123,7 @@
 
 - (void)dismissController
 {
+    [_viewModel cancel];
     [self cancleGCDTimer];
     
     [UIView animateWithDuration:1 delay:0.2 options:UIViewAnimationOptionCurveEaseOut animations:^{
@@ -143,5 +147,20 @@
     [self cancleGCDTimer];
 }
 
+#pragma mark - TYRequestDelegate
+- (void)requestDidFinish:(ZXLaunchViewModel *)request
+{
+    NSString *imageURL = (NSString *)request.responseObject.data;
+    if (!imageURL && ![imageURL isKindOfClass:[NSString class]]) {
+        [self dismissController];
+    }
+    
+    [self showADImageWithURL:[NSURL URLWithString:imageURL]];
+}
+
+- (void)requestDidFail:(ZXLaunchViewModel *)request error:(NSError *)error
+{
+    [self dismissController];
+}
 
 @end

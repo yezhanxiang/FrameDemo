@@ -17,6 +17,12 @@
 		63637E391DBDFE5C0033F5A6 /* ZXLaunchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63637E381DBDFE5C0033F5A6 /* ZXLaunchController.m */; };
 		63637E3D1DBE011D0033F5A6 /* ZXLaunchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63637E3C1DBE011D0033F5A6 /* ZXLaunchView.m */; };
 		63637E421DBE0C3F0033F5A6 /* UIImage+LaunchImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 63637E411DBE0C3F0033F5A6 /* UIImage+LaunchImage.m */; };
+		63637E461DBF4B2A0033F5A6 /* ZXBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 63637E451DBF4B2A0033F5A6 /* ZXBaseRequest.m */; };
+		637338931DC05431008FA18D /* ZXHttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 637338921DC05431008FA18D /* ZXHttpManager.m */; };
+		637338961DC05487008FA18D /* ZXRequestConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 637338951DC05487008FA18D /* ZXRequestConfigure.m */; };
+		63A771451DC0B25000B26CD8 /* ZXHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A771441DC0B25000B26CD8 /* ZXHttpRequest.m */; };
+		63A771491DC0B61F00B26CD8 /* ZXLaunchViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A771481DC0B61F00B26CD8 /* ZXLaunchViewModel.m */; };
+		63A7714D1DC19DEC00B26CD8 /* ZXResponseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A7714C1DC19DEC00B26CD8 /* ZXResponseObject.m */; };
 		90020D5B4295BEF628019383 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4A82F4C3D2915E9E686607 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +68,21 @@
 		63637E3C1DBE011D0033F5A6 /* ZXLaunchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXLaunchView.m; sourceTree = "<group>"; };
 		63637E401DBE0C3F0033F5A6 /* UIImage+LaunchImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LaunchImage.h"; sourceTree = "<group>"; };
 		63637E411DBE0C3F0033F5A6 /* UIImage+LaunchImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LaunchImage.m"; sourceTree = "<group>"; };
+		63637E441DBF4B2A0033F5A6 /* ZXBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXBaseRequest.h; sourceTree = "<group>"; };
+		63637E451DBF4B2A0033F5A6 /* ZXBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXBaseRequest.m; sourceTree = "<group>"; };
+		63637E471DBF4B4B0033F5A6 /* ZXRequestProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXRequestProtocol.h; sourceTree = "<group>"; };
+		63637E481DBF4FAA0033F5A6 /* FrameDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FrameDemo-Prefix.pch"; sourceTree = "<group>"; };
+		637338911DC05431008FA18D /* ZXHttpManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXHttpManager.h; sourceTree = "<group>"; };
+		637338921DC05431008FA18D /* ZXHttpManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXHttpManager.m; sourceTree = "<group>"; };
+		637338941DC05487008FA18D /* ZXRequestConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXRequestConfigure.h; sourceTree = "<group>"; };
+		637338951DC05487008FA18D /* ZXRequestConfigure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXRequestConfigure.m; sourceTree = "<group>"; };
+		63A771431DC0B25000B26CD8 /* ZXHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXHttpRequest.h; sourceTree = "<group>"; };
+		63A771441DC0B25000B26CD8 /* ZXHttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXHttpRequest.m; sourceTree = "<group>"; };
+		63A771471DC0B61F00B26CD8 /* ZXLaunchViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXLaunchViewModel.h; sourceTree = "<group>"; };
+		63A771481DC0B61F00B26CD8 /* ZXLaunchViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXLaunchViewModel.m; sourceTree = "<group>"; };
+		63A7714A1DC0B6DC00B26CD8 /* ZXRequestURLInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXRequestURLInfo.h; sourceTree = "<group>"; };
+		63A7714B1DC19DEC00B26CD8 /* ZXResponseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXResponseObject.h; sourceTree = "<group>"; };
+		63A7714C1DC19DEC00B26CD8 /* ZXResponseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXResponseObject.m; sourceTree = "<group>"; };
 		93EE32903B6411C1ABB65739 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		CD4A82F4C3D2915E9E686607 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -131,6 +152,7 @@
 				63637E2C1DBDF4250033F5A6 /* NetWorking */,
 				63637E301DBDFA470033F5A6 /* Foundation */,
 				63637E2D1DBDF4250033F5A6 /* Resources */,
+				63637E431DBF46470033F5A6 /* Vender */,
 				63637DFA1DBDA5A80033F5A6 /* AppDelegate.h */,
 				63637DFB1DBDA5A80033F5A6 /* AppDelegate.m */,
 				63637DF71DBDA5A80033F5A6 /* Supporting Files */,
@@ -143,6 +165,7 @@
 			children = (
 				63637E081DBDA5A80033F5A6 /* Info.plist */,
 				63637DF81DBDA5A80033F5A6 /* main.m */,
+				63637E481DBF4FAA0033F5A6 /* FrameDemo-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -183,6 +206,18 @@
 		63637E2C1DBDF4250033F5A6 /* NetWorking */ = {
 			isa = PBXGroup;
 			children = (
+				63A7714A1DC0B6DC00B26CD8 /* ZXRequestURLInfo.h */,
+				63637E471DBF4B4B0033F5A6 /* ZXRequestProtocol.h */,
+				63637E441DBF4B2A0033F5A6 /* ZXBaseRequest.h */,
+				63637E451DBF4B2A0033F5A6 /* ZXBaseRequest.m */,
+				63A771431DC0B25000B26CD8 /* ZXHttpRequest.h */,
+				63A771441DC0B25000B26CD8 /* ZXHttpRequest.m */,
+				637338911DC05431008FA18D /* ZXHttpManager.h */,
+				637338921DC05431008FA18D /* ZXHttpManager.m */,
+				637338941DC05487008FA18D /* ZXRequestConfigure.h */,
+				637338951DC05487008FA18D /* ZXRequestConfigure.m */,
+				63A7714B1DC19DEC00B26CD8 /* ZXResponseObject.h */,
+				63A7714C1DC19DEC00B26CD8 /* ZXResponseObject.m */,
 			);
 			path = NetWorking;
 			sourceTree = "<group>";
@@ -199,6 +234,7 @@
 		63637E2E1DBDF9650033F5A6 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				63A771461DC0B5BF00B26CD8 /* ViewModel */,
 				63637E2F1DBDF9650033F5A6 /* Controller */,
 				63637E3A1DBE00E50033F5A6 /* View */,
 			);
@@ -258,6 +294,22 @@
 				63637E411DBE0C3F0033F5A6 /* UIImage+LaunchImage.m */,
 			);
 			path = UIImage;
+			sourceTree = "<group>";
+		};
+		63637E431DBF46470033F5A6 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		63A771461DC0B5BF00B26CD8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				63A771471DC0B61F00B26CD8 /* ZXLaunchViewModel.h */,
+				63A771481DC0B61F00B26CD8 /* ZXLaunchViewModel.m */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		7DD5277CF545B374D92467F9 /* Frameworks */ = {
@@ -452,12 +504,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63637E461DBF4B2A0033F5A6 /* ZXBaseRequest.m in Sources */,
 				63637E391DBDFE5C0033F5A6 /* ZXLaunchController.m in Sources */,
 				63637DFC1DBDA5A80033F5A6 /* AppDelegate.m in Sources */,
+				63A771451DC0B25000B26CD8 /* ZXHttpRequest.m in Sources */,
+				637338961DC05487008FA18D /* ZXRequestConfigure.m in Sources */,
+				63A7714D1DC19DEC00B26CD8 /* ZXResponseObject.m in Sources */,
+				63A771491DC0B61F00B26CD8 /* ZXLaunchViewModel.m in Sources */,
 				63637E421DBE0C3F0033F5A6 /* UIImage+LaunchImage.m in Sources */,
 				63637E3D1DBE011D0033F5A6 /* ZXLaunchView.m in Sources */,
 				63637E361DBDFC630033F5A6 /* ZXMainViewController.m in Sources */,
 				63637DF91DBDA5A80033F5A6 /* main.m in Sources */,
+				637338931DC05431008FA18D /* ZXHttpManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,6 +581,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -570,6 +629,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -600,6 +660,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JD8X33J4KG;
 				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FrameDemo/FrameDemo-Prefix.pch";
 				INFOPLIST_FILE = FrameDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -616,6 +678,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JD8X33J4KG;
 				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FrameDemo/FrameDemo-Prefix.pch";
 				INFOPLIST_FILE = FrameDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
