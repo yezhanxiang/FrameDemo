@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = RGB_255(0, 0, 0);
+    self.view.backgroundColor = RGB_255(255, 255, 255);
 }
 
 - (void)didReceiveMemoryWarning {

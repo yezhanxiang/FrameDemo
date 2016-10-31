@@ -13,15 +13,20 @@
 		63637E071DBDA5A80033F5A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63637E051DBDA5A80033F5A6 /* LaunchScreen.storyboard */; };
 		63637E121DBDA5A80033F5A6 /* FrameDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63637E111DBDA5A80033F5A6 /* FrameDemoTests.m */; };
 		63637E1D1DBDA5A80033F5A6 /* FrameDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63637E1C1DBDA5A80033F5A6 /* FrameDemoUITests.m */; };
-		63637E361DBDFC630033F5A6 /* ZXMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63637E351DBDFC630033F5A6 /* ZXMainViewController.m */; };
-		63637E391DBDFE5C0033F5A6 /* ZXLaunchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63637E381DBDFE5C0033F5A6 /* ZXLaunchController.m */; };
-		63637E3D1DBE011D0033F5A6 /* ZXLaunchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63637E3C1DBE011D0033F5A6 /* ZXLaunchView.m */; };
 		63637E421DBE0C3F0033F5A6 /* UIImage+LaunchImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 63637E411DBE0C3F0033F5A6 /* UIImage+LaunchImage.m */; };
 		63637E461DBF4B2A0033F5A6 /* ZXBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 63637E451DBF4B2A0033F5A6 /* ZXBaseRequest.m */; };
 		637338931DC05431008FA18D /* ZXHttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 637338921DC05431008FA18D /* ZXHttpManager.m */; };
 		637338961DC05487008FA18D /* ZXRequestConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 637338951DC05487008FA18D /* ZXRequestConfigure.m */; };
+		6398FFC81DC6EE3800F4BFD4 /* ZXLaunchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6398FFBC1DC6EE3800F4BFD4 /* ZXLaunchController.m */; };
+		6398FFC91DC6EE3800F4BFD4 /* ZXMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6398FFBE1DC6EE3800F4BFD4 /* ZXMainViewController.m */; };
+		6398FFCA1DC6EE3800F4BFD4 /* ZXLaunchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6398FFC11DC6EE3800F4BFD4 /* ZXLaunchView.m */; };
+		6398FFCB1DC6EE3800F4BFD4 /* ZXLaunchViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6398FFC41DC6EE3800F4BFD4 /* ZXLaunchViewModel.m */; };
+		6398FFCE1DC6EFD300F4BFD4 /* ZXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6398FFCD1DC6EFD300F4BFD4 /* ZXTabBarController.m */; };
+		6398FFD11DC6EFF500F4BFD4 /* ZXTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6398FFD01DC6EFF500F4BFD4 /* ZXTabBar.m */; };
+		6398FFD41DC6F53900F4BFD4 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 6398FFD31DC6F53900F4BFD4 /* UIImage+Color.m */; };
+		6398FFD81DC73C0100F4BFD4 /* ZXNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6398FFD71DC73C0100F4BFD4 /* ZXNavigationController.m */; };
+		6398FFDE1DC7497F00F4BFD4 /* ZXNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6398FFDD1DC7497F00F4BFD4 /* ZXNewsViewController.m */; };
 		63A771451DC0B25000B26CD8 /* ZXHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A771441DC0B25000B26CD8 /* ZXHttpRequest.m */; };
-		63A771491DC0B61F00B26CD8 /* ZXLaunchViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A771481DC0B61F00B26CD8 /* ZXLaunchViewModel.m */; };
 		63A7714D1DC19DEC00B26CD8 /* ZXResponseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A7714C1DC19DEC00B26CD8 /* ZXResponseObject.m */; };
 		90020D5B4295BEF628019383 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4A82F4C3D2915E9E686607 /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -60,12 +65,6 @@
 		63637E1E1DBDA5A80033F5A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63637E321DBDFA510033F5A6 /* Define_Basic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Define_Basic.h; sourceTree = "<group>"; };
 		63637E331DBDFA510033F5A6 /* Function_Basic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Function_Basic.h; sourceTree = "<group>"; };
-		63637E341DBDFC630033F5A6 /* ZXMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXMainViewController.h; sourceTree = "<group>"; };
-		63637E351DBDFC630033F5A6 /* ZXMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXMainViewController.m; sourceTree = "<group>"; };
-		63637E371DBDFE5C0033F5A6 /* ZXLaunchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXLaunchController.h; sourceTree = "<group>"; };
-		63637E381DBDFE5C0033F5A6 /* ZXLaunchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXLaunchController.m; sourceTree = "<group>"; };
-		63637E3B1DBE011D0033F5A6 /* ZXLaunchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXLaunchView.h; sourceTree = "<group>"; };
-		63637E3C1DBE011D0033F5A6 /* ZXLaunchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXLaunchView.m; sourceTree = "<group>"; };
 		63637E401DBE0C3F0033F5A6 /* UIImage+LaunchImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LaunchImage.h"; sourceTree = "<group>"; };
 		63637E411DBE0C3F0033F5A6 /* UIImage+LaunchImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LaunchImage.m"; sourceTree = "<group>"; };
 		63637E441DBF4B2A0033F5A6 /* ZXBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXBaseRequest.h; sourceTree = "<group>"; };
@@ -76,10 +75,26 @@
 		637338921DC05431008FA18D /* ZXHttpManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXHttpManager.m; sourceTree = "<group>"; };
 		637338941DC05487008FA18D /* ZXRequestConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXRequestConfigure.h; sourceTree = "<group>"; };
 		637338951DC05487008FA18D /* ZXRequestConfigure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXRequestConfigure.m; sourceTree = "<group>"; };
+		6398FFBB1DC6EE3800F4BFD4 /* ZXLaunchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXLaunchController.h; sourceTree = "<group>"; };
+		6398FFBC1DC6EE3800F4BFD4 /* ZXLaunchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXLaunchController.m; sourceTree = "<group>"; };
+		6398FFBD1DC6EE3800F4BFD4 /* ZXMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXMainViewController.h; sourceTree = "<group>"; };
+		6398FFBE1DC6EE3800F4BFD4 /* ZXMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXMainViewController.m; sourceTree = "<group>"; };
+		6398FFC01DC6EE3800F4BFD4 /* ZXLaunchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXLaunchView.h; sourceTree = "<group>"; };
+		6398FFC11DC6EE3800F4BFD4 /* ZXLaunchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXLaunchView.m; sourceTree = "<group>"; };
+		6398FFC31DC6EE3800F4BFD4 /* ZXLaunchViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXLaunchViewModel.h; sourceTree = "<group>"; };
+		6398FFC41DC6EE3800F4BFD4 /* ZXLaunchViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXLaunchViewModel.m; sourceTree = "<group>"; };
+		6398FFCC1DC6EFD300F4BFD4 /* ZXTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXTabBarController.h; sourceTree = "<group>"; };
+		6398FFCD1DC6EFD300F4BFD4 /* ZXTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXTabBarController.m; sourceTree = "<group>"; };
+		6398FFCF1DC6EFF500F4BFD4 /* ZXTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXTabBar.h; sourceTree = "<group>"; };
+		6398FFD01DC6EFF500F4BFD4 /* ZXTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXTabBar.m; sourceTree = "<group>"; };
+		6398FFD21DC6F53900F4BFD4 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		6398FFD31DC6F53900F4BFD4 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		6398FFD61DC73C0100F4BFD4 /* ZXNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXNavigationController.h; sourceTree = "<group>"; };
+		6398FFD71DC73C0100F4BFD4 /* ZXNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXNavigationController.m; sourceTree = "<group>"; };
+		6398FFDC1DC7497F00F4BFD4 /* ZXNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXNewsViewController.h; sourceTree = "<group>"; };
+		6398FFDD1DC7497F00F4BFD4 /* ZXNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXNewsViewController.m; sourceTree = "<group>"; };
 		63A771431DC0B25000B26CD8 /* ZXHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXHttpRequest.h; sourceTree = "<group>"; };
 		63A771441DC0B25000B26CD8 /* ZXHttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXHttpRequest.m; sourceTree = "<group>"; };
-		63A771471DC0B61F00B26CD8 /* ZXLaunchViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXLaunchViewModel.h; sourceTree = "<group>"; };
-		63A771481DC0B61F00B26CD8 /* ZXLaunchViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXLaunchViewModel.m; sourceTree = "<group>"; };
 		63A7714A1DC0B6DC00B26CD8 /* ZXRequestURLInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXRequestURLInfo.h; sourceTree = "<group>"; };
 		63A7714B1DC19DEC00B26CD8 /* ZXResponseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXResponseObject.h; sourceTree = "<group>"; };
 		63A7714C1DC19DEC00B26CD8 /* ZXResponseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXResponseObject.m; sourceTree = "<group>"; };
@@ -198,6 +213,7 @@
 		63637E2B1DBDF4250033F5A6 /* Modudels */ = {
 			isa = PBXGroup;
 			children = (
+				6398FFD91DC7484500F4BFD4 /* News */,
 				63637E2E1DBDF9650033F5A6 /* Main */,
 			);
 			path = Modudels;
@@ -234,22 +250,11 @@
 		63637E2E1DBDF9650033F5A6 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				63A771461DC0B5BF00B26CD8 /* ViewModel */,
-				63637E2F1DBDF9650033F5A6 /* Controller */,
-				63637E3A1DBE00E50033F5A6 /* View */,
+				6398FFD51DC73BDC00F4BFD4 /* Navigation */,
+				6398FFC51DC6EE3800F4BFD4 /* TableBar */,
+				6398FFB91DC6EE3800F4BFD4 /* Launch */,
 			);
 			path = Main;
-			sourceTree = "<group>";
-		};
-		63637E2F1DBDF9650033F5A6 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				63637E341DBDFC630033F5A6 /* ZXMainViewController.h */,
-				63637E351DBDFC630033F5A6 /* ZXMainViewController.m */,
-				63637E371DBDFE5C0033F5A6 /* ZXLaunchController.h */,
-				63637E381DBDFE5C0033F5A6 /* ZXLaunchController.m */,
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 		63637E301DBDFA470033F5A6 /* Foundation */ = {
@@ -270,15 +275,6 @@
 			path = Header;
 			sourceTree = "<group>";
 		};
-		63637E3A1DBE00E50033F5A6 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				63637E3B1DBE011D0033F5A6 /* ZXLaunchView.h */,
-				63637E3C1DBE011D0033F5A6 /* ZXLaunchView.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		63637E3E1DBE0C150033F5A6 /* Category */ = {
 			isa = PBXGroup;
 			children = (
@@ -292,6 +288,8 @@
 			children = (
 				63637E401DBE0C3F0033F5A6 /* UIImage+LaunchImage.h */,
 				63637E411DBE0C3F0033F5A6 /* UIImage+LaunchImage.m */,
+				6398FFD21DC6F53900F4BFD4 /* UIImage+Color.h */,
+				6398FFD31DC6F53900F4BFD4 /* UIImage+Color.m */,
 			);
 			path = UIImage;
 			sourceTree = "<group>";
@@ -303,13 +301,104 @@
 			path = Vender;
 			sourceTree = "<group>";
 		};
-		63A771461DC0B5BF00B26CD8 /* ViewModel */ = {
+		6398FFB91DC6EE3800F4BFD4 /* Launch */ = {
 			isa = PBXGroup;
 			children = (
-				63A771471DC0B61F00B26CD8 /* ZXLaunchViewModel.h */,
-				63A771481DC0B61F00B26CD8 /* ZXLaunchViewModel.m */,
+				6398FFBA1DC6EE3800F4BFD4 /* Controller */,
+				6398FFBF1DC6EE3800F4BFD4 /* View */,
+				6398FFC21DC6EE3800F4BFD4 /* ViewModel */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		6398FFBA1DC6EE3800F4BFD4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6398FFBB1DC6EE3800F4BFD4 /* ZXLaunchController.h */,
+				6398FFBC1DC6EE3800F4BFD4 /* ZXLaunchController.m */,
+				6398FFBD1DC6EE3800F4BFD4 /* ZXMainViewController.h */,
+				6398FFBE1DC6EE3800F4BFD4 /* ZXMainViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6398FFBF1DC6EE3800F4BFD4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6398FFC01DC6EE3800F4BFD4 /* ZXLaunchView.h */,
+				6398FFC11DC6EE3800F4BFD4 /* ZXLaunchView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6398FFC21DC6EE3800F4BFD4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6398FFC31DC6EE3800F4BFD4 /* ZXLaunchViewModel.h */,
+				6398FFC41DC6EE3800F4BFD4 /* ZXLaunchViewModel.m */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6398FFC51DC6EE3800F4BFD4 /* TableBar */ = {
+			isa = PBXGroup;
+			children = (
+				6398FFC61DC6EE3800F4BFD4 /* Controller */,
+				6398FFC71DC6EE3800F4BFD4 /* View */,
+			);
+			path = TableBar;
+			sourceTree = "<group>";
+		};
+		6398FFC61DC6EE3800F4BFD4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6398FFCC1DC6EFD300F4BFD4 /* ZXTabBarController.h */,
+				6398FFCD1DC6EFD300F4BFD4 /* ZXTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6398FFC71DC6EE3800F4BFD4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6398FFCF1DC6EFF500F4BFD4 /* ZXTabBar.h */,
+				6398FFD01DC6EFF500F4BFD4 /* ZXTabBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6398FFD51DC73BDC00F4BFD4 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				6398FFD61DC73C0100F4BFD4 /* ZXNavigationController.h */,
+				6398FFD71DC73C0100F4BFD4 /* ZXNavigationController.m */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		6398FFD91DC7484500F4BFD4 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				6398FFDA1DC7484500F4BFD4 /* Controller */,
+				6398FFDB1DC7484500F4BFD4 /* View */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		6398FFDA1DC7484500F4BFD4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6398FFDC1DC7497F00F4BFD4 /* ZXNewsViewController.h */,
+				6398FFDD1DC7497F00F4BFD4 /* ZXNewsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6398FFDB1DC7484500F4BFD4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		7DD5277CF545B374D92467F9 /* Frameworks */ = {
@@ -505,17 +594,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				63637E461DBF4B2A0033F5A6 /* ZXBaseRequest.m in Sources */,
-				63637E391DBDFE5C0033F5A6 /* ZXLaunchController.m in Sources */,
 				63637DFC1DBDA5A80033F5A6 /* AppDelegate.m in Sources */,
+				6398FFC81DC6EE3800F4BFD4 /* ZXLaunchController.m in Sources */,
 				63A771451DC0B25000B26CD8 /* ZXHttpRequest.m in Sources */,
 				637338961DC05487008FA18D /* ZXRequestConfigure.m in Sources */,
+				6398FFDE1DC7497F00F4BFD4 /* ZXNewsViewController.m in Sources */,
 				63A7714D1DC19DEC00B26CD8 /* ZXResponseObject.m in Sources */,
-				63A771491DC0B61F00B26CD8 /* ZXLaunchViewModel.m in Sources */,
 				63637E421DBE0C3F0033F5A6 /* UIImage+LaunchImage.m in Sources */,
-				63637E3D1DBE011D0033F5A6 /* ZXLaunchView.m in Sources */,
-				63637E361DBDFC630033F5A6 /* ZXMainViewController.m in Sources */,
+				6398FFCB1DC6EE3800F4BFD4 /* ZXLaunchViewModel.m in Sources */,
+				6398FFCE1DC6EFD300F4BFD4 /* ZXTabBarController.m in Sources */,
+				6398FFD81DC73C0100F4BFD4 /* ZXNavigationController.m in Sources */,
+				6398FFC91DC6EE3800F4BFD4 /* ZXMainViewController.m in Sources */,
 				63637DF91DBDA5A80033F5A6 /* main.m in Sources */,
+				6398FFCA1DC6EE3800F4BFD4 /* ZXLaunchView.m in Sources */,
+				6398FFD41DC6F53900F4BFD4 /* UIImage+Color.m in Sources */,
 				637338931DC05431008FA18D /* ZXHttpManager.m in Sources */,
+				6398FFD11DC6EFF500F4BFD4 /* ZXTabBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

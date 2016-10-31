@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "ZXMainViewController.h"
+#import "ZXTabBarController.h"
 #import "ZXLaunchController.h"
 
 @interface AppDelegate ()
@@ -30,7 +30,7 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
-    self.window.rootViewController = [[ZXMainViewController alloc] init];
+    self.window.rootViewController = [[ZXTabBarController alloc] init];
     [self.window makeKeyAndVisible];
 }
 
