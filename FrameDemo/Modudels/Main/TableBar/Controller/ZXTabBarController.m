@@ -8,9 +8,11 @@
 
 #import "ZXTabBarController.h"
 #import "ZXTabBar.h"
+#import "ZXNavigationController.h"
 #import "ZXMainViewController.h"
 #import "ZXNewsViewController.h"
-#import "ZXNavigationController.h"
+#import "ZXRecommendController.h"
+
 
 @interface ZXTabBarController ()<ZXTabBarDelegate>
 
@@ -38,19 +40,19 @@
 - (void)configureChildViewControllers
 {
     //
-    [self addMainViewController];
+    [self addRecommendViewController];
     [self addNewsViewController];
     
 }
 
-- (void)addMainViewController
+- (void)addRecommendViewController
 {
     UIEdgeInsets imageInsets = UIEdgeInsetsZero;
     UIOffset titlePosition = UIOffsetMake(0, -2);
     
-    ZXMainViewController *mainVC = [[ZXMainViewController alloc] init];
+    ZXRecommendController *recommendVC = [[ZXRecommendController alloc] init];
     
-    [self addChildViewController:mainVC title:@"首页" image:@"userIcon" selectedImage:@"selectedUserIcon" imageInsets:imageInsets titlePosition:titlePosition navControllerClass:[ZXNavigationController class]];
+    [self addChildViewController:recommendVC title:@"精选" image:@"userIcon" selectedImage:@"selectedUserIcon" imageInsets:imageInsets titlePosition:titlePosition navControllerClass:[ZXNavigationController class]];
 }
 
 - (void)addNewsViewController

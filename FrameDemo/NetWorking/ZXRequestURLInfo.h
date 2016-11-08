@@ -11,4 +11,7 @@
 
 #define BaseURL @"http://i.play.163.com"
 
+#define NewsRecommendTopicURL @"/news/topicOrderSource/list"
+#define NewsRecommendImageInfosURL @"/news/config/config_focus_img/list/"
+
 #endif /* ZXRequestURLInfo_h */

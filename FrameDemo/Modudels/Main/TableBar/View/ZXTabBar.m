@@ -31,12 +31,7 @@
 - (void)configureTabBar
 {
     self.shadowImage = [UIImage new];
-    [self setBackgroundImage:[UIImage imageWithColor:RGBA_255(238, 240, 245, 0.78)]];
-    //blur效果
-    UIVisualEffectView *visualEffectView = [[UIVisualEffectView alloc] initWithEffect:[UIBlurEffect effectWithStyle:UIBlurEffectStyleLight]];
-    visualEffectView.frame = self.bounds;
-    visualEffectView.alpha = 1.0;
-    [self insertSubview:visualEffectView atIndex:0];
+    [self setBackgroundImage:[UIImage imageWithColor:RGBA_255(0, 0, 0, 1)]];
     
     [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:RGB_255(113, 113, 113)} forState:UIControlStateNormal];
     [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:RGB_255(218, 85, 107)} forState:UIControlStateSelected];

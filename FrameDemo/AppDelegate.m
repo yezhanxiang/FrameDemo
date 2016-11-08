@@ -22,7 +22,7 @@
     [self addMainWindow];
     
     [self addADLaunchController];
-    
+
     return YES;
 }
 

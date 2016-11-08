@@ -47,7 +47,9 @@
 }
 
 #pragma mark - ASTableDelegate
-
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+}
 
 #pragma mark - Getter and Setter
 - (ASTableNode *)tableNode
@@ -58,16 +60,7 @@
 - (NSArray *)dataArray
 {
     if (!_dataArray) {
-        _dataArray = @[@"打算电话卡就是多卡就是等哈来上课记得换卡了是丢为企业期望",
-                       @"ewqueoiwqueoiqwu",
-                       @"大连市空间woeuqwoieuoqw空间溜达我阿斯顿啊四大俗撒打算打算打算打算打算的啊打算阿迪阿斯顿",
-                       @"恶趣味",
-                       @"额外",
-                       @"大叔大叔大叔大叔",
-                       @"大连市空间woeuqwoieuoqw空间溜达我阿斯顿啊四大俗撒打算打算打算打算打算的啊打算阿迪阿斯顿大连市空间woeuqwoieuoqw空间溜达我阿斯顿啊四大俗撒打算打算打算打算打算的啊打算阿迪阿斯顿大连市空间woeuqwoieuoqw空间溜达我阿斯顿啊四大俗撒打算打算打算打算打算的啊打算阿迪阿斯顿",
-                       @"打算的大叔大叔大叔大叔答打算的啊四大俗阿斯顿啊啊岁的啊",
-                       @"213123213123",
-                       @"oqwueoiqwueoiqwuoeiwqueqiwoueoqwiueoqwieuqowieuqwoeiuq"];
+        _dataArray = @[@"abstract", @"animals", @"business", @"cats", @"city", @"food", @"nightlife", @"fashion", @"people", @"nature", @"sports", @"technics", @"transport"];
     }
     return _dataArray;
 }
