@@ -38,6 +38,8 @@
 		63A7714D1DC19DEC00B26CD8 /* ZXResponseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A7714C1DC19DEC00B26CD8 /* ZXResponseObject.m */; };
 		63C1F2E41DD17E5700E84A5C /* ZXBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C1F2E31DD17E5700E84A5C /* ZXBaseViewModel.m */; };
 		63C1F2E81DD1AE8300E84A5C /* ZXLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C1F2E71DD1AE8300E84A5C /* ZXLoadingView.m */; };
+		63C1F2EE1DD2FDF600E84A5C /* ZXMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C1F2ED1DD2FDF600E84A5C /* ZXMineViewController.m */; };
+		63C1F2F11DD31C9F00E84A5C /* ZXMineHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C1F2F01DD31C9F00E84A5C /* ZXMineHeaderView.m */; };
 		90020D5B4295BEF628019383 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4A82F4C3D2915E9E686607 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -128,6 +130,10 @@
 		63C1F2E31DD17E5700E84A5C /* ZXBaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXBaseViewModel.m; sourceTree = "<group>"; };
 		63C1F2E61DD1AE8300E84A5C /* ZXLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXLoadingView.h; sourceTree = "<group>"; };
 		63C1F2E71DD1AE8300E84A5C /* ZXLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXLoadingView.m; sourceTree = "<group>"; };
+		63C1F2EC1DD2FDF600E84A5C /* ZXMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXMineViewController.h; sourceTree = "<group>"; };
+		63C1F2ED1DD2FDF600E84A5C /* ZXMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXMineViewController.m; sourceTree = "<group>"; };
+		63C1F2EF1DD31C9F00E84A5C /* ZXMineHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXMineHeaderView.h; sourceTree = "<group>"; };
+		63C1F2F01DD31C9F00E84A5C /* ZXMineHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXMineHeaderView.m; sourceTree = "<group>"; };
 		93EE32903B6411C1ABB65739 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		CD4A82F4C3D2915E9E686607 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -246,6 +252,7 @@
 				6398FFE81DC88AF700F4BFD4 /* Recommend */,
 				6398FFD91DC7484500F4BFD4 /* News */,
 				63637E2E1DBDF9650033F5A6 /* Main */,
+				63C1F2E91DD2FACD00E84A5C /* Mine */,
 				63C1F2E51DD1AD8000E84A5C /* Common */,
 			);
 			path = Modudels;
@@ -499,6 +506,33 @@
 			path = Common;
 			sourceTree = "<group>";
 		};
+		63C1F2E91DD2FACD00E84A5C /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				63C1F2EA1DD2FAE500E84A5C /* Controller */,
+				63C1F2EB1DD2FAE500E84A5C /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		63C1F2EA1DD2FAE500E84A5C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				63C1F2EC1DD2FDF600E84A5C /* ZXMineViewController.h */,
+				63C1F2ED1DD2FDF600E84A5C /* ZXMineViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		63C1F2EB1DD2FAE500E84A5C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				63C1F2EF1DD31C9F00E84A5C /* ZXMineHeaderView.h */,
+				63C1F2F01DD31C9F00E84A5C /* ZXMineHeaderView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		7DD5277CF545B374D92467F9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -698,6 +732,7 @@
 				63A771451DC0B25000B26CD8 /* ZXHttpRequest.m in Sources */,
 				637338961DC05487008FA18D /* ZXRequestConfigure.m in Sources */,
 				6398FFDE1DC7497F00F4BFD4 /* ZXNewsViewController.m in Sources */,
+				63C1F2F11DD31C9F00E84A5C /* ZXMineHeaderView.m in Sources */,
 				6398FFEF1DC88D5700F4BFD4 /* ZXRecommendController.m in Sources */,
 				63A7714D1DC19DEC00B26CD8 /* ZXResponseObject.m in Sources */,
 				63637E421DBE0C3F0033F5A6 /* UIImage+LaunchImage.m in Sources */,
@@ -706,6 +741,7 @@
 				6398FFF21DC8958700F4BFD4 /* ZXImagePagerCellNode.m in Sources */,
 				6398FFCB1DC6EE3800F4BFD4 /* ZXLaunchViewModel.m in Sources */,
 				6398FFCE1DC6EFD300F4BFD4 /* ZXTabBarController.m in Sources */,
+				63C1F2EE1DD2FDF600E84A5C /* ZXMineViewController.m in Sources */,
 				6398FFD81DC73C0100F4BFD4 /* ZXNavigationController.m in Sources */,
 				6398FFF81DC89D3000F4BFD4 /* ZXImageInfoCellNode.m in Sources */,
 				63C1F2E41DD17E5700E84A5C /* ZXBaseViewModel.m in Sources */,

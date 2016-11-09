@@ -53,6 +53,14 @@ __weak typeof(obj) weak_##obj = obj; \
 
 #define RGBA_255(r,g,b,a) [UIColor colorWithRed:(float)r/255.0 green:(float)g/255.0 blue:(float)b/255.0 alpha:a]
 
+// 16进制颜色
+#define UIColorFromRGBA(rgbValue, alphaValue)\
+[UIColor \
+colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 \
+green:((float)((rgbValue & 0x00FF00) >> 8))/255.0 \
+blue:((float)(rgbValue & 0x0000FF))/255.0 \
+alpha:alphaValue]
+
 //当前window
 #define kCurrentWindow [[UIApplication sharedApplication].windows firstObject]
 

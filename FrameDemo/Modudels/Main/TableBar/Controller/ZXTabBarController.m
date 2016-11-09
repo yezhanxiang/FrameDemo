@@ -12,6 +12,7 @@
 #import "ZXMainViewController.h"
 #import "ZXNewsViewController.h"
 #import "ZXRecommendController.h"
+#import "ZXMineViewController.h"
 
 
 @interface ZXTabBarController ()<ZXTabBarDelegate>
@@ -33,7 +34,7 @@
 {
     ZXTabBar *tabBar = [[ZXTabBar alloc] init];
     tabBar.tabBardelegate = self;
-    tabBar.numOfTabBarItem = 3;
+    tabBar.numOfTabBarItem = 5;
     [self setValue:tabBar forKey:@"tabBar"];
 }
 
@@ -42,6 +43,7 @@
     //
     [self addRecommendViewController];
     [self addNewsViewController];
+    [self addMineViewController];
     
 }
 
@@ -63,6 +65,15 @@
     ZXNewsViewController *newsVC = [[ZXNewsViewController alloc] init];
     
     [self addChildViewController:newsVC title:@"新闻" image:@"userIcon" selectedImage:@"selectedUserIcon" imageInsets:imageInsets titlePosition:titlePosition navControllerClass:[ZXNavigationController class]];
+}
+
+- (void)addMineViewController
+{
+    UIEdgeInsets imageInsets = UIEdgeInsetsZero;
+    UIOffset titlePosition = UIOffsetMake(0, -2);
+    
+    ZXMineViewController *mineVC = [[ZXMineViewController alloc] init];
+    [self addChildViewController:mineVC title:@"个人中心" image:@"userIcon" selectedImage:@"selectedUserIcon" imageInsets:imageInsets titlePosition:titlePosition navControllerClass:[ZXNavigationController class]];
 }
 
 - (void)addChildViewController:(UIViewController *)childVc title:(NSString *)title image:(NSString *)image selectedImage:(NSString *)selectedImage imageInsets:(UIEdgeInsets)imageInsets titlePosition:(UIOffset)titlePosition navControllerClass:(Class)navControllerClass
