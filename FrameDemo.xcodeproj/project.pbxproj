@@ -36,6 +36,20 @@
 		6398FFFE1DC9C8C900F4BFD4 /* ZXRecommendCellNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 6398FFFD1DC9C8C900F4BFD4 /* ZXRecommendCellNode.m */; };
 		63A771451DC0B25000B26CD8 /* ZXHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A771441DC0B25000B26CD8 /* ZXHttpRequest.m */; };
 		63A7714D1DC19DEC00B26CD8 /* ZXResponseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A7714C1DC19DEC00B26CD8 /* ZXResponseObject.m */; };
+		63B243E91DD45C60000BEB48 /* FlatButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B243E81DD45C60000BEB48 /* FlatButton.m */; };
+		63B243ED1DD466F1000BEB48 /* ButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B243EC1DD466F1000BEB48 /* ButtonViewController.m */; };
+		63B243F01DD4696A000BEB48 /* DecayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B243EF1DD4696A000BEB48 /* DecayViewController.m */; };
+		63B243F31DD47320000BEB48 /* CircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B243F21DD47320000BEB48 /* CircleViewController.m */; };
+		63B243F61DD474A8000BEB48 /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B243F51DD474A8000BEB48 /* CircleView.m */; };
+		63B243F91DD57923000BEB48 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B243F81DD57923000BEB48 /* ImageViewController.m */; };
+		63B243FC1DD579E4000BEB48 /* ZXImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B243FB1DD579E4000BEB48 /* ZXImageView.m */; };
+		63B243FE1DD5983A000BEB48 /* boat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63B243FD1DD5983A000BEB48 /* boat.jpg */; };
+		63B244011DD5A642000BEB48 /* CustomTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B244001DD5A642000BEB48 /* CustomTransitionViewController.m */; };
+		63B244071DD5A93D000BEB48 /* PresentingAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B244061DD5A93D000BEB48 /* PresentingAnimator.m */; };
+		63B2440A1DD5B2A9000BEB48 /* DismissingAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B244091DD5B2A9000BEB48 /* DismissingAnimator.m */; };
+		63B2440D1DD5BACB000BEB48 /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B2440C1DD5BACB000BEB48 /* ModalViewController.m */; };
+		63B244101DD5C5D2000BEB48 /* PaperButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B2440F1DD5C5D2000BEB48 /* PaperButtonViewController.m */; };
+		63B244131DD5C601000BEB48 /* PaperButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B244121DD5C601000BEB48 /* PaperButton.m */; };
 		63C1F2E41DD17E5700E84A5C /* ZXBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C1F2E31DD17E5700E84A5C /* ZXBaseViewModel.m */; };
 		63C1F2E81DD1AE8300E84A5C /* ZXLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C1F2E71DD1AE8300E84A5C /* ZXLoadingView.m */; };
 		63C1F2EE1DD2FDF600E84A5C /* ZXMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C1F2ED1DD2FDF600E84A5C /* ZXMineViewController.m */; };
@@ -126,6 +140,33 @@
 		63A7714A1DC0B6DC00B26CD8 /* ZXRequestURLInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXRequestURLInfo.h; sourceTree = "<group>"; };
 		63A7714B1DC19DEC00B26CD8 /* ZXResponseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXResponseObject.h; sourceTree = "<group>"; };
 		63A7714C1DC19DEC00B26CD8 /* ZXResponseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXResponseObject.m; sourceTree = "<group>"; };
+		63B243E71DD45C60000BEB48 /* FlatButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlatButton.h; sourceTree = "<group>"; };
+		63B243E81DD45C60000BEB48 /* FlatButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlatButton.m; sourceTree = "<group>"; };
+		63B243EB1DD466F1000BEB48 /* ButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonViewController.h; sourceTree = "<group>"; };
+		63B243EC1DD466F1000BEB48 /* ButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonViewController.m; sourceTree = "<group>"; };
+		63B243EE1DD4696A000BEB48 /* DecayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecayViewController.h; sourceTree = "<group>"; };
+		63B243EF1DD4696A000BEB48 /* DecayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecayViewController.m; sourceTree = "<group>"; };
+		63B243F11DD47320000BEB48 /* CircleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleViewController.h; sourceTree = "<group>"; };
+		63B243F21DD47320000BEB48 /* CircleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleViewController.m; sourceTree = "<group>"; };
+		63B243F41DD474A8000BEB48 /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
+		63B243F51DD474A8000BEB48 /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
+		63B243F71DD57923000BEB48 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		63B243F81DD57923000BEB48 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		63B243FA1DD579E4000BEB48 /* ZXImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXImageView.h; sourceTree = "<group>"; };
+		63B243FB1DD579E4000BEB48 /* ZXImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXImageView.m; sourceTree = "<group>"; };
+		63B243FD1DD5983A000BEB48 /* boat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = boat.jpg; sourceTree = "<group>"; };
+		63B243FF1DD5A642000BEB48 /* CustomTransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTransitionViewController.h; sourceTree = "<group>"; };
+		63B244001DD5A642000BEB48 /* CustomTransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTransitionViewController.m; sourceTree = "<group>"; };
+		63B244051DD5A93D000BEB48 /* PresentingAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentingAnimator.h; sourceTree = "<group>"; };
+		63B244061DD5A93D000BEB48 /* PresentingAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentingAnimator.m; sourceTree = "<group>"; };
+		63B244081DD5B2A9000BEB48 /* DismissingAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DismissingAnimator.h; sourceTree = "<group>"; };
+		63B244091DD5B2A9000BEB48 /* DismissingAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DismissingAnimator.m; sourceTree = "<group>"; };
+		63B2440B1DD5BACB000BEB48 /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		63B2440C1DD5BACB000BEB48 /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
+		63B2440E1DD5C5D2000BEB48 /* PaperButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaperButtonViewController.h; sourceTree = "<group>"; };
+		63B2440F1DD5C5D2000BEB48 /* PaperButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaperButtonViewController.m; sourceTree = "<group>"; };
+		63B244111DD5C601000BEB48 /* PaperButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaperButton.h; sourceTree = "<group>"; };
+		63B244121DD5C601000BEB48 /* PaperButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaperButton.m; sourceTree = "<group>"; };
 		63C1F2E21DD17E5700E84A5C /* ZXBaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXBaseViewModel.h; sourceTree = "<group>"; };
 		63C1F2E31DD17E5700E84A5C /* ZXBaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXBaseViewModel.m; sourceTree = "<group>"; };
 		63C1F2E61DD1AE8300E84A5C /* ZXLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXLoadingView.h; sourceTree = "<group>"; };
@@ -284,6 +325,7 @@
 		63637E2D1DBDF4250033F5A6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				63B243FD1DD5983A000BEB48 /* boat.jpg */,
 				63637E031DBDA5A80033F5A6 /* Assets.xcassets */,
 				63637E051DBDA5A80033F5A6 /* LaunchScreen.storyboard */,
 			);
@@ -340,6 +382,7 @@
 		63637E431DBF46470033F5A6 /* Vender */ = {
 			isa = PBXGroup;
 			children = (
+				63B243E51DD45C16000BEB48 /* Popping */,
 			);
 			path = Vender;
 			sourceTree = "<group>";
@@ -497,6 +540,79 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		63B243E51DD45C16000BEB48 /* Popping */ = {
+			isa = PBXGroup;
+			children = (
+				63B244021DD5A8ED000BEB48 /* Animator */,
+				63B243EA1DD466D2000BEB48 /* ViewController */,
+				63B243E61DD45C16000BEB48 /* UI */,
+			);
+			path = Popping;
+			sourceTree = "<group>";
+		};
+		63B243E61DD45C16000BEB48 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				63B243E71DD45C60000BEB48 /* FlatButton.h */,
+				63B243E81DD45C60000BEB48 /* FlatButton.m */,
+				63B243F41DD474A8000BEB48 /* CircleView.h */,
+				63B243F51DD474A8000BEB48 /* CircleView.m */,
+				63B243FA1DD579E4000BEB48 /* ZXImageView.h */,
+				63B243FB1DD579E4000BEB48 /* ZXImageView.m */,
+				63B244111DD5C601000BEB48 /* PaperButton.h */,
+				63B244121DD5C601000BEB48 /* PaperButton.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		63B243EA1DD466D2000BEB48 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				63B243EB1DD466F1000BEB48 /* ButtonViewController.h */,
+				63B243EC1DD466F1000BEB48 /* ButtonViewController.m */,
+				63B243EE1DD4696A000BEB48 /* DecayViewController.h */,
+				63B243EF1DD4696A000BEB48 /* DecayViewController.m */,
+				63B243F11DD47320000BEB48 /* CircleViewController.h */,
+				63B243F21DD47320000BEB48 /* CircleViewController.m */,
+				63B243F71DD57923000BEB48 /* ImageViewController.h */,
+				63B243F81DD57923000BEB48 /* ImageViewController.m */,
+				63B243FF1DD5A642000BEB48 /* CustomTransitionViewController.h */,
+				63B244001DD5A642000BEB48 /* CustomTransitionViewController.m */,
+				63B2440B1DD5BACB000BEB48 /* ModalViewController.h */,
+				63B2440C1DD5BACB000BEB48 /* ModalViewController.m */,
+				63B2440E1DD5C5D2000BEB48 /* PaperButtonViewController.h */,
+				63B2440F1DD5C5D2000BEB48 /* PaperButtonViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		63B244021DD5A8ED000BEB48 /* Animator */ = {
+			isa = PBXGroup;
+			children = (
+				63B244031DD5A8ED000BEB48 /* DismissingAnimator */,
+				63B244041DD5A8ED000BEB48 /* PresentingAnimator */,
+			);
+			path = Animator;
+			sourceTree = "<group>";
+		};
+		63B244031DD5A8ED000BEB48 /* DismissingAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				63B244081DD5B2A9000BEB48 /* DismissingAnimator.h */,
+				63B244091DD5B2A9000BEB48 /* DismissingAnimator.m */,
+			);
+			path = DismissingAnimator;
+			sourceTree = "<group>";
+		};
+		63B244041DD5A8ED000BEB48 /* PresentingAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				63B244051DD5A93D000BEB48 /* PresentingAnimator.h */,
+				63B244061DD5A93D000BEB48 /* PresentingAnimator.m */,
+			);
+			path = PresentingAnimator;
+			sourceTree = "<group>";
+		};
 		63C1F2E51DD1AD8000E84A5C /* Common */ = {
 			isa = PBXGroup;
 			children = (
@@ -652,6 +768,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63637E071DBDA5A80033F5A6 /* LaunchScreen.storyboard in Resources */,
+				63B243FE1DD5983A000BEB48 /* boat.jpg in Resources */,
 				63637E041DBDA5A80033F5A6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -725,17 +842,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63B243F61DD474A8000BEB48 /* CircleView.m in Sources */,
 				63637E461DBF4B2A0033F5A6 /* ZXBaseRequest.m in Sources */,
 				63637DFC1DBDA5A80033F5A6 /* AppDelegate.m in Sources */,
 				639800041DC9ECD900F4BFD4 /* ZXBatchRequest.m in Sources */,
 				6398FFC81DC6EE3800F4BFD4 /* ZXLaunchController.m in Sources */,
+				63B243F91DD57923000BEB48 /* ImageViewController.m in Sources */,
 				63A771451DC0B25000B26CD8 /* ZXHttpRequest.m in Sources */,
+				63B244101DD5C5D2000BEB48 /* PaperButtonViewController.m in Sources */,
 				637338961DC05487008FA18D /* ZXRequestConfigure.m in Sources */,
 				6398FFDE1DC7497F00F4BFD4 /* ZXNewsViewController.m in Sources */,
+				63B244071DD5A93D000BEB48 /* PresentingAnimator.m in Sources */,
+				63B243F31DD47320000BEB48 /* CircleViewController.m in Sources */,
 				63C1F2F11DD31C9F00E84A5C /* ZXMineHeaderView.m in Sources */,
+				63B2440D1DD5BACB000BEB48 /* ModalViewController.m in Sources */,
+				63B244131DD5C601000BEB48 /* PaperButton.m in Sources */,
 				6398FFEF1DC88D5700F4BFD4 /* ZXRecommendController.m in Sources */,
 				63A7714D1DC19DEC00B26CD8 /* ZXResponseObject.m in Sources */,
 				63637E421DBE0C3F0033F5A6 /* UIImage+LaunchImage.m in Sources */,
+				63B243ED1DD466F1000BEB48 /* ButtonViewController.m in Sources */,
 				6398FFF51DC89C6B00F4BFD4 /* ZXTopicImageInfo.m in Sources */,
 				6398FFFE1DC9C8C900F4BFD4 /* ZXRecommendCellNode.m in Sources */,
 				6398FFF21DC8958700F4BFD4 /* ZXImagePagerCellNode.m in Sources */,
@@ -743,13 +868,18 @@
 				6398FFCE1DC6EFD300F4BFD4 /* ZXTabBarController.m in Sources */,
 				63C1F2EE1DD2FDF600E84A5C /* ZXMineViewController.m in Sources */,
 				6398FFD81DC73C0100F4BFD4 /* ZXNavigationController.m in Sources */,
+				63B2440A1DD5B2A9000BEB48 /* DismissingAnimator.m in Sources */,
 				6398FFF81DC89D3000F4BFD4 /* ZXImageInfoCellNode.m in Sources */,
 				63C1F2E41DD17E5700E84A5C /* ZXBaseViewModel.m in Sources */,
+				63B243FC1DD579E4000BEB48 /* ZXImageView.m in Sources */,
+				63B243F01DD4696A000BEB48 /* DecayViewController.m in Sources */,
 				6398FFFB1DC9998D00F4BFD4 /* ZXRecommendViewModel.m in Sources */,
 				6398FFC91DC6EE3800F4BFD4 /* ZXMainViewController.m in Sources */,
 				63637DF91DBDA5A80033F5A6 /* main.m in Sources */,
+				63B244011DD5A642000BEB48 /* CustomTransitionViewController.m in Sources */,
 				6398FFCA1DC6EE3800F4BFD4 /* ZXLaunchView.m in Sources */,
 				6398FFD41DC6F53900F4BFD4 /* UIImage+Color.m in Sources */,
+				63B243E91DD45C60000BEB48 /* FlatButton.m in Sources */,
 				637338931DC05431008FA18D /* ZXHttpManager.m in Sources */,
 				6398FFD11DC6EFF500F4BFD4 /* ZXTabBar.m in Sources */,
 				639800011DC9C8E900F4BFD4 /* ZXRecommendItem.m in Sources */,

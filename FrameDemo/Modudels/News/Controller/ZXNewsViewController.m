@@ -7,6 +7,12 @@
 //
 
 #import "ZXNewsViewController.h"
+#import "ButtonViewController.h"
+#import "DecayViewController.h"
+#import "CircleViewController.h"
+#import "ImageViewController.h"
+#import "CustomTransitionViewController.h"
+#import "PaperButtonViewController.h"
 
 @interface ZXNewsViewController ()<ASTableDelegate, ASTableDataSource>
 @property (nonatomic, strong) ASTableNode *tableNode;
@@ -41,7 +47,7 @@
 {
     return ^{
         ASTextCellNode *textCellNode = [ASTextCellNode new];
-        textCellNode.text = self.dataArray[indexPath.row];
+        textCellNode.text = [self.dataArray[indexPath.row] firstObject];
         return textCellNode;
     };
 }
@@ -49,6 +55,20 @@
 #pragma mark - ASTableDelegate
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    UIViewController *viewController = [self viewControllerForRowAtIndexPath:indexPath];
+    viewController.title = [self titleForRowAtIndexPath:indexPath];
+    [self.navigationController pushViewController:viewController animated:YES];
+}
+
+#pragma mark - Private instance methods
+- (NSString *)titleForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return [self.dataArray[indexPath.row] firstObject];
+}
+
+- (UIViewController *)viewControllerForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return [[self.dataArray[indexPath.row] lastObject] new];
 }
 
 #pragma mark - Getter and Setter
@@ -60,7 +80,14 @@
 - (NSArray *)dataArray
 {
     if (!_dataArray) {
-        _dataArray = @[@"abstract", @"animals", @"business", @"cats", @"city", @"food", @"nightlife", @"fashion", @"people", @"nature", @"sports", @"technics", @"transport"];
+        _dataArray = @[
+                        @[@"Button Animation", [ButtonViewController class]],
+                        @[@"Decay Animation", [DecayViewController class]],
+                        @[@"Circle Animation", [CircleViewController class]],
+                        @[@"Image Animation", [ImageViewController class]],
+                        @[@"Custom Transition", [CustomTransitionViewController class]],
+                        @[@"Paper Button Animation", [PaperButtonViewController class]]
+                       ];
     }
     return _dataArray;
 }
