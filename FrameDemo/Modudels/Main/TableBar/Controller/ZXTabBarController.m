@@ -41,20 +41,13 @@
 - (void)configureChildViewControllers
 {
     //
-    [self addRecommendViewController];
     [self addNewsViewController];
+    [self addRecommendViewController];
     [self addMineViewController];
-    
-}
+    [self addMineViewController];
+    [self addMineViewController];
+    [self addMineViewController];
 
-- (void)addRecommendViewController
-{
-    UIEdgeInsets imageInsets = UIEdgeInsetsZero;
-    UIOffset titlePosition = UIOffsetMake(0, -2);
-    
-    ZXRecommendController *recommendVC = [[ZXRecommendController alloc] init];
-    
-    [self addChildViewController:recommendVC title:@"精选" image:@"userIcon" selectedImage:@"selectedUserIcon" imageInsets:imageInsets titlePosition:titlePosition navControllerClass:[ZXNavigationController class]];
 }
 
 - (void)addNewsViewController
@@ -65,6 +58,15 @@
     ZXNewsViewController *newsVC = [[ZXNewsViewController alloc] init];
     
     [self addChildViewController:newsVC title:@"新闻" image:@"userIcon" selectedImage:@"selectedUserIcon" imageInsets:imageInsets titlePosition:titlePosition navControllerClass:[ZXNavigationController class]];
+}
+
+- (void)addRecommendViewController
+{                                                                                                                                                    
+    UIEdgeInsets imageInsets = UIEdgeInsetsZero;
+    UIOffset titlePosition = UIOffsetMake(0, -2);
+    
+    ZXRecommendController *recommendVC = [[ZXRecommendController alloc] init];
+    [self addChildViewController:recommendVC title:@"精选" image:@"userIcon" selectedImage:@"selectedUserIcon" imageInsets:imageInsets titlePosition:titlePosition navControllerClass:[ZXNavigationController class]];
 }
 
 - (void)addMineViewController

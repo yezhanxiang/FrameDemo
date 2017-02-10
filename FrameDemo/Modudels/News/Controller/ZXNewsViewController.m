@@ -13,6 +13,9 @@
 #import "ImageViewController.h"
 #import "CustomTransitionViewController.h"
 #import "PaperButtonViewController.h"
+#import "FoldingViewController.h"
+#import "PasswordViewController.h"
+#import "ConstraintsViewController.h"
 
 @interface ZXNewsViewController ()<ASTableDelegate, ASTableDataSource>
 @property (nonatomic, strong) ASTableNode *tableNode;
@@ -86,7 +89,10 @@
                         @[@"Circle Animation", [CircleViewController class]],
                         @[@"Image Animation", [ImageViewController class]],
                         @[@"Custom Transition", [CustomTransitionViewController class]],
-                        @[@"Paper Button Animation", [PaperButtonViewController class]]
+                        @[@"Paper Button Animation", [PaperButtonViewController class]],
+                        @[@"Folding Animation", [FoldingViewController class]],
+                        @[@"Password Indicator Animation", [PasswordViewController class]],
+                        @[@"Constraints Animation", [ConstraintsViewController class]]
                        ];
     }
     return _dataArray;

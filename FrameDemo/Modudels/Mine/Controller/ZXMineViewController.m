@@ -8,6 +8,7 @@
 
 #import "ZXMineViewController.h"
 #import "ZXMineHeaderView.h"
+#import "ZXSrollViewController.h"
 
 @interface ZXMineViewController ()<ASTableDelegate, ASTableDataSource>
 @property (nonatomic, strong) ASTableNode *tableNode;
@@ -54,16 +55,24 @@
 #pragma mark - ASTableDelegate, ASTableDataSource
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 10;
+    return 6;
 }
 
 - (ASCellNodeBlock)tableView:(ASTableView *)tableView nodeBlockForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     return ^{
         ASTextCellNode *cellNode = [[ASTextCellNode alloc] init];
-        cellNode.text = @"321";
+        NSDictionary *dict = @{NSFontAttributeName:[UIFont systemFontOfSize:10+indexPath.row]};
+        cellNode.textAttributes = dict;
+        cellNode.text = [NSString stringWithFormat:@"测试字体-%ld", (long)10+indexPath.row];
         return cellNode;
     };
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    ZXSrollViewController *scrollVC = [[ZXSrollViewController alloc] init];
+    [self.navigationController pushViewController:scrollVC animated:YES];
 }
 
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section

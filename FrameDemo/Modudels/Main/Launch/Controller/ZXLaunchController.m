@@ -155,7 +155,7 @@
         [self dismissController];
     }
     
-    [self showADImageWithURL:[NSURL URLWithString:imageURL]];
+    [self showADImageWithURL:[NSURL URLWithString:@""]];
 }
 
 - (void)requestDidFail:(ZXLaunchViewModel *)request error:(NSError *)error

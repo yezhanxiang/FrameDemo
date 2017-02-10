@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		635121401DE28D5000D65105 /* ZXSrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6351213F1DE28D5000D65105 /* ZXSrollViewController.m */; };
+		635121441DE296CA00D65105 /* img1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 635121411DE296CA00D65105 /* img1.jpg */; };
+		635121451DE296CA00D65105 /* img2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 635121421DE296CA00D65105 /* img2.jpg */; };
+		635121461DE296CA00D65105 /* img3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 635121431DE296CA00D65105 /* img3.jpg */; };
 		63637DF91DBDA5A80033F5A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63637DF81DBDA5A80033F5A6 /* main.m */; };
 		63637DFC1DBDA5A80033F5A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63637DFB1DBDA5A80033F5A6 /* AppDelegate.m */; };
 		63637E041DBDA5A80033F5A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63637E031DBDA5A80033F5A6 /* Assets.xcassets */; };
@@ -50,11 +54,18 @@
 		63B2440D1DD5BACB000BEB48 /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B2440C1DD5BACB000BEB48 /* ModalViewController.m */; };
 		63B244101DD5C5D2000BEB48 /* PaperButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B2440F1DD5C5D2000BEB48 /* PaperButtonViewController.m */; };
 		63B244131DD5C601000BEB48 /* PaperButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B244121DD5C601000BEB48 /* PaperButton.m */; };
+		63B244161DDAAFF5000BEB48 /* FoldingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B244151DDAAFF5000BEB48 /* FoldingViewController.m */; };
+		63B244191DDAB069000BEB48 /* FoldingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B244181DDAB069000BEB48 /* FoldingView.m */; };
+		63B2441C1DDAF4F9000BEB48 /* UIImage+Blur.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B2441B1DDAF4F9000BEB48 /* UIImage+Blur.m */; };
+		63B2441F1DDB0453000BEB48 /* PasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B2441E1DDB0453000BEB48 /* PasswordViewController.m */; };
+		63B244221DDB04F5000BEB48 /* PasswordStrengthIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B244211DDB04F5000BEB48 /* PasswordStrengthIndicatorView.m */; };
+		63B244251DDBF81A000BEB48 /* ConstraintsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B244241DDBF81A000BEB48 /* ConstraintsViewController.m */; };
 		63C1F2E41DD17E5700E84A5C /* ZXBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C1F2E31DD17E5700E84A5C /* ZXBaseViewModel.m */; };
 		63C1F2E81DD1AE8300E84A5C /* ZXLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C1F2E71DD1AE8300E84A5C /* ZXLoadingView.m */; };
 		63C1F2EE1DD2FDF600E84A5C /* ZXMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C1F2ED1DD2FDF600E84A5C /* ZXMineViewController.m */; };
 		63C1F2F11DD31C9F00E84A5C /* ZXMineHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C1F2F01DD31C9F00E84A5C /* ZXMineHeaderView.m */; };
-		90020D5B4295BEF628019383 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4A82F4C3D2915E9E686607 /* libPods.a */; };
+		63D14F451DE595BD0000C156 /* CALayer+Border.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D14F441DE595BD0000C156 /* CALayer+Border.m */; };
+		A3C786004675523EEF853287 /* libPods-FrameDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 74819ED7C6C9459CEF9E6AA2 /* libPods-FrameDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,7 +86,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		152412BEDD2D7E71112E9E7E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		29AEC7096DB8A07920F502A9 /* Pods-FrameDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FrameDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FrameDemo/Pods-FrameDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		6351213E1DE28D5000D65105 /* ZXSrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXSrollViewController.h; sourceTree = "<group>"; };
+		6351213F1DE28D5000D65105 /* ZXSrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXSrollViewController.m; sourceTree = "<group>"; };
+		635121411DE296CA00D65105 /* img1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img1.jpg; sourceTree = "<group>"; };
+		635121421DE296CA00D65105 /* img2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img2.jpg; sourceTree = "<group>"; };
+		635121431DE296CA00D65105 /* img3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img3.jpg; sourceTree = "<group>"; };
 		63637DF41DBDA5A80033F5A6 /* FrameDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrameDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63637DF81DBDA5A80033F5A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		63637DFA1DBDA5A80033F5A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -167,6 +183,18 @@
 		63B2440F1DD5C5D2000BEB48 /* PaperButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaperButtonViewController.m; sourceTree = "<group>"; };
 		63B244111DD5C601000BEB48 /* PaperButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaperButton.h; sourceTree = "<group>"; };
 		63B244121DD5C601000BEB48 /* PaperButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaperButton.m; sourceTree = "<group>"; };
+		63B244141DDAAFF5000BEB48 /* FoldingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoldingViewController.h; sourceTree = "<group>"; };
+		63B244151DDAAFF5000BEB48 /* FoldingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoldingViewController.m; sourceTree = "<group>"; };
+		63B244171DDAB069000BEB48 /* FoldingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoldingView.h; sourceTree = "<group>"; };
+		63B244181DDAB069000BEB48 /* FoldingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoldingView.m; sourceTree = "<group>"; };
+		63B2441A1DDAF4F9000BEB48 /* UIImage+Blur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Blur.h"; sourceTree = "<group>"; };
+		63B2441B1DDAF4F9000BEB48 /* UIImage+Blur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Blur.m"; sourceTree = "<group>"; };
+		63B2441D1DDB0453000BEB48 /* PasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordViewController.h; sourceTree = "<group>"; };
+		63B2441E1DDB0453000BEB48 /* PasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordViewController.m; sourceTree = "<group>"; };
+		63B244201DDB04F5000BEB48 /* PasswordStrengthIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordStrengthIndicatorView.h; sourceTree = "<group>"; };
+		63B244211DDB04F5000BEB48 /* PasswordStrengthIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordStrengthIndicatorView.m; sourceTree = "<group>"; };
+		63B244231DDBF81A000BEB48 /* ConstraintsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstraintsViewController.h; sourceTree = "<group>"; };
+		63B244241DDBF81A000BEB48 /* ConstraintsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConstraintsViewController.m; sourceTree = "<group>"; };
 		63C1F2E21DD17E5700E84A5C /* ZXBaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXBaseViewModel.h; sourceTree = "<group>"; };
 		63C1F2E31DD17E5700E84A5C /* ZXBaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXBaseViewModel.m; sourceTree = "<group>"; };
 		63C1F2E61DD1AE8300E84A5C /* ZXLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXLoadingView.h; sourceTree = "<group>"; };
@@ -175,8 +203,10 @@
 		63C1F2ED1DD2FDF600E84A5C /* ZXMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXMineViewController.m; sourceTree = "<group>"; };
 		63C1F2EF1DD31C9F00E84A5C /* ZXMineHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXMineHeaderView.h; sourceTree = "<group>"; };
 		63C1F2F01DD31C9F00E84A5C /* ZXMineHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXMineHeaderView.m; sourceTree = "<group>"; };
-		93EE32903B6411C1ABB65739 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		CD4A82F4C3D2915E9E686607 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D14F431DE595BD0000C156 /* CALayer+Border.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Border.h"; sourceTree = "<group>"; };
+		63D14F441DE595BD0000C156 /* CALayer+Border.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Border.m"; sourceTree = "<group>"; };
+		74819ED7C6C9459CEF9E6AA2 /* libPods-FrameDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FrameDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD667E04BCF9BAC02FD4A7E3 /* Pods-FrameDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FrameDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FrameDemo/Pods-FrameDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,7 +214,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90020D5B4295BEF628019383 /* libPods.a in Frameworks */,
+				A3C786004675523EEF853287 /* libPods-FrameDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,13 +235,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5E0743BC3AE4AA532DB02FC0 /* Pods */ = {
+		6351213B1DE28C8A00D65105 /* Scroll */ = {
 			isa = PBXGroup;
 			children = (
-				93EE32903B6411C1ABB65739 /* Pods.debug.xcconfig */,
-				152412BEDD2D7E71112E9E7E /* Pods.release.xcconfig */,
+				6351213C1DE28C8A00D65105 /* Controller */,
+				6351213D1DE28C8A00D65105 /* View */,
 			);
-			name = Pods;
+			path = Scroll;
+			sourceTree = "<group>";
+		};
+		6351213C1DE28C8A00D65105 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6351213E1DE28D5000D65105 /* ZXSrollViewController.h */,
+				6351213F1DE28D5000D65105 /* ZXSrollViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6351213D1DE28C8A00D65105 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		635BF9541DF7DF78007C4EF9 /* Wangyi */ = {
+			isa = PBXGroup;
+			children = (
+				635BF9551DF7DF78007C4EF9 /* Controller */,
+				635BF9561DF7DF78007C4EF9 /* View */,
+			);
+			path = Wangyi;
+			sourceTree = "<group>";
+		};
+		635BF9551DF7DF78007C4EF9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		635BF9561DF7DF78007C4EF9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		63637DEB1DBDA5A80033F5A6 = {
@@ -221,8 +290,8 @@
 				63637E101DBDA5A80033F5A6 /* FrameDemoTests */,
 				63637E1B1DBDA5A80033F5A6 /* FrameDemoUITests */,
 				63637DF51DBDA5A80033F5A6 /* Products */,
-				5E0743BC3AE4AA532DB02FC0 /* Pods */,
-				7DD5277CF545B374D92467F9 /* Frameworks */,
+				7E5FFD27072FF8FA7763535B /* Pods */,
+				D105F9DBFA76FCA453D1E55C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -290,6 +359,8 @@
 		63637E2B1DBDF4250033F5A6 /* Modudels */ = {
 			isa = PBXGroup;
 			children = (
+				635BF9541DF7DF78007C4EF9 /* Wangyi */,
+				6351213B1DE28C8A00D65105 /* Scroll */,
 				6398FFE81DC88AF700F4BFD4 /* Recommend */,
 				6398FFD91DC7484500F4BFD4 /* News */,
 				63637E2E1DBDF9650033F5A6 /* Main */,
@@ -325,6 +396,9 @@
 		63637E2D1DBDF4250033F5A6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				635121411DE296CA00D65105 /* img1.jpg */,
+				635121421DE296CA00D65105 /* img2.jpg */,
+				635121431DE296CA00D65105 /* img3.jpg */,
 				63B243FD1DD5983A000BEB48 /* boat.jpg */,
 				63637E031DBDA5A80033F5A6 /* Assets.xcassets */,
 				63637E051DBDA5A80033F5A6 /* LaunchScreen.storyboard */,
@@ -363,6 +437,7 @@
 		63637E3E1DBE0C150033F5A6 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				63D14F421DE5958F0000C156 /* CALayer */,
 				63637E3F1DBE0C150033F5A6 /* UIImage */,
 			);
 			path = Category;
@@ -375,6 +450,8 @@
 				63637E411DBE0C3F0033F5A6 /* UIImage+LaunchImage.m */,
 				6398FFD21DC6F53900F4BFD4 /* UIImage+Color.h */,
 				6398FFD31DC6F53900F4BFD4 /* UIImage+Color.m */,
+				63B2441A1DDAF4F9000BEB48 /* UIImage+Blur.h */,
+				63B2441B1DDAF4F9000BEB48 /* UIImage+Blur.m */,
 			);
 			path = UIImage;
 			sourceTree = "<group>";
@@ -561,6 +638,10 @@
 				63B243FB1DD579E4000BEB48 /* ZXImageView.m */,
 				63B244111DD5C601000BEB48 /* PaperButton.h */,
 				63B244121DD5C601000BEB48 /* PaperButton.m */,
+				63B244171DDAB069000BEB48 /* FoldingView.h */,
+				63B244181DDAB069000BEB48 /* FoldingView.m */,
+				63B244201DDB04F5000BEB48 /* PasswordStrengthIndicatorView.h */,
+				63B244211DDB04F5000BEB48 /* PasswordStrengthIndicatorView.m */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -582,6 +663,12 @@
 				63B2440C1DD5BACB000BEB48 /* ModalViewController.m */,
 				63B2440E1DD5C5D2000BEB48 /* PaperButtonViewController.h */,
 				63B2440F1DD5C5D2000BEB48 /* PaperButtonViewController.m */,
+				63B244141DDAAFF5000BEB48 /* FoldingViewController.h */,
+				63B244151DDAAFF5000BEB48 /* FoldingViewController.m */,
+				63B2441D1DDB0453000BEB48 /* PasswordViewController.h */,
+				63B2441E1DDB0453000BEB48 /* PasswordViewController.m */,
+				63B244231DDBF81A000BEB48 /* ConstraintsViewController.h */,
+				63B244241DDBF81A000BEB48 /* ConstraintsViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -649,10 +736,28 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		7DD5277CF545B374D92467F9 /* Frameworks */ = {
+		63D14F421DE5958F0000C156 /* CALayer */ = {
 			isa = PBXGroup;
 			children = (
-				CD4A82F4C3D2915E9E686607 /* libPods.a */,
+				63D14F431DE595BD0000C156 /* CALayer+Border.h */,
+				63D14F441DE595BD0000C156 /* CALayer+Border.m */,
+			);
+			path = CALayer;
+			sourceTree = "<group>";
+		};
+		7E5FFD27072FF8FA7763535B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29AEC7096DB8A07920F502A9 /* Pods-FrameDemo.debug.xcconfig */,
+				FD667E04BCF9BAC02FD4A7E3 /* Pods-FrameDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D105F9DBFA76FCA453D1E55C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74819ED7C6C9459CEF9E6AA2 /* libPods-FrameDemo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -664,12 +769,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63637E211DBDA5A80033F5A6 /* Build configuration list for PBXNativeTarget "FrameDemo" */;
 			buildPhases = (
-				97D0742111649088EB7C4905 /* Check Pods Manifest.lock */,
+				D25EC9D931708DCEEBCB15F5 /* [CP] Check Pods Manifest.lock */,
 				63637DF01DBDA5A80033F5A6 /* Sources */,
 				63637DF11DBDA5A80033F5A6 /* Frameworks */,
 				63637DF21DBDA5A80033F5A6 /* Resources */,
-				DF46E1BE39160C7E470E3DA1 /* Embed Pods Frameworks */,
-				ED67CF1B712B8BB61E8A8F75 /* Copy Pods Resources */,
+				FE8E0F408ED05E06D9ECC8CD /* [CP] Embed Pods Frameworks */,
+				EBD055EE5883352D1D53AA34 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -768,6 +873,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				63637E071DBDA5A80033F5A6 /* LaunchScreen.storyboard in Resources */,
+				635121461DE296CA00D65105 /* img3.jpg in Resources */,
+				635121451DE296CA00D65105 /* img2.jpg in Resources */,
+				635121441DE296CA00D65105 /* img1.jpg in Resources */,
 				63B243FE1DD5983A000BEB48 /* boat.jpg in Resources */,
 				63637E041DBDA5A80033F5A6 /* Assets.xcassets in Resources */,
 			);
@@ -790,49 +898,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		97D0742111649088EB7C4905 /* Check Pods Manifest.lock */ = {
+		D25EC9D931708DCEEBCB15F5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		DF46E1BE39160C7E470E3DA1 /* Embed Pods Frameworks */ = {
+		EBD055EE5883352D1D53AA34 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FrameDemo/Pods-FrameDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		ED67CF1B712B8BB61E8A8F75 /* Copy Pods Resources */ = {
+		FE8E0F408ED05E06D9ECC8CD /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FrameDemo/Pods-FrameDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -853,9 +961,12 @@
 				637338961DC05487008FA18D /* ZXRequestConfigure.m in Sources */,
 				6398FFDE1DC7497F00F4BFD4 /* ZXNewsViewController.m in Sources */,
 				63B244071DD5A93D000BEB48 /* PresentingAnimator.m in Sources */,
+				63B244161DDAAFF5000BEB48 /* FoldingViewController.m in Sources */,
 				63B243F31DD47320000BEB48 /* CircleViewController.m in Sources */,
+				63B244251DDBF81A000BEB48 /* ConstraintsViewController.m in Sources */,
 				63C1F2F11DD31C9F00E84A5C /* ZXMineHeaderView.m in Sources */,
 				63B2440D1DD5BACB000BEB48 /* ModalViewController.m in Sources */,
+				63B2441F1DDB0453000BEB48 /* PasswordViewController.m in Sources */,
 				63B244131DD5C601000BEB48 /* PaperButton.m in Sources */,
 				6398FFEF1DC88D5700F4BFD4 /* ZXRecommendController.m in Sources */,
 				63A7714D1DC19DEC00B26CD8 /* ZXResponseObject.m in Sources */,
@@ -868,8 +979,11 @@
 				6398FFCE1DC6EFD300F4BFD4 /* ZXTabBarController.m in Sources */,
 				63C1F2EE1DD2FDF600E84A5C /* ZXMineViewController.m in Sources */,
 				6398FFD81DC73C0100F4BFD4 /* ZXNavigationController.m in Sources */,
+				63B2441C1DDAF4F9000BEB48 /* UIImage+Blur.m in Sources */,
 				63B2440A1DD5B2A9000BEB48 /* DismissingAnimator.m in Sources */,
+				63B244221DDB04F5000BEB48 /* PasswordStrengthIndicatorView.m in Sources */,
 				6398FFF81DC89D3000F4BFD4 /* ZXImageInfoCellNode.m in Sources */,
+				63D14F451DE595BD0000C156 /* CALayer+Border.m in Sources */,
 				63C1F2E41DD17E5700E84A5C /* ZXBaseViewModel.m in Sources */,
 				63B243FC1DD579E4000BEB48 /* ZXImageView.m in Sources */,
 				63B243F01DD4696A000BEB48 /* DecayViewController.m in Sources */,
@@ -877,12 +991,14 @@
 				6398FFC91DC6EE3800F4BFD4 /* ZXMainViewController.m in Sources */,
 				63637DF91DBDA5A80033F5A6 /* main.m in Sources */,
 				63B244011DD5A642000BEB48 /* CustomTransitionViewController.m in Sources */,
+				635121401DE28D5000D65105 /* ZXSrollViewController.m in Sources */,
 				6398FFCA1DC6EE3800F4BFD4 /* ZXLaunchView.m in Sources */,
 				6398FFD41DC6F53900F4BFD4 /* UIImage+Color.m in Sources */,
 				63B243E91DD45C60000BEB48 /* FlatButton.m in Sources */,
 				637338931DC05431008FA18D /* ZXHttpManager.m in Sources */,
 				6398FFD11DC6EFF500F4BFD4 /* ZXTabBar.m in Sources */,
 				639800011DC9C8E900F4BFD4 /* ZXRecommendItem.m in Sources */,
+				63B244191DDAB069000BEB48 /* FoldingView.m in Sources */,
 				63C1F2E81DD1AE8300E84A5C /* ZXLoadingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1023,7 +1139,7 @@
 		};
 		63637E221DBDA5A80033F5A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93EE32903B6411C1ABB65739 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 29AEC7096DB8A07920F502A9 /* Pods-FrameDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JD8X33J4KG;
@@ -1031,7 +1147,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FrameDemo/FrameDemo-Prefix.pch";
 				INFOPLIST_FILE = FrameDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.FrameDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1041,7 +1157,7 @@
 		};
 		63637E231DBDA5A80033F5A6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 152412BEDD2D7E71112E9E7E /* Pods.release.xcconfig */;
+			baseConfigurationReference = FD667E04BCF9BAC02FD4A7E3 /* Pods-FrameDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JD8X33J4KG;
@@ -1049,7 +1165,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FrameDemo/FrameDemo-Prefix.pch";
 				INFOPLIST_FILE = FrameDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.FrameDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

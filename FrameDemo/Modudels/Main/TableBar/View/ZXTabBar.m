@@ -20,7 +20,7 @@
 {
     if (self = [super init]) {
         _numOfTabBarItem = 5;
-        _isHasMidBtn = YES;
+        _isHasMidBtn = NO;
         [self configureTabBar];
         !_isHasMidBtn?:[self addMidBtn];
     }
